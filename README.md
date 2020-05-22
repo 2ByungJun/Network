@@ -1,6 +1,6 @@
 ## Network Programming Study
 ___
-### update : 2020.05.19
+### update : 2020.05.22
 
 > Velog Link : https://velog.io/@ieed0205
 
@@ -10,7 +10,8 @@ ___
 
 > ## 1. start sample
 >
-> ###  - Day : 2020.05.19
+> ###  - Day : 2020.05.22
 > 
 >       - IPAddr
 >       - ByteOrder
+>       - NameResolution
