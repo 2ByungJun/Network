@@ -1,0 +1,4 @@
+﻿  TCPClient6.cpp
+C:\Users\ieed0\source\TCPClient6\TCPClient6.cpp(76): warning C4996: 'WSAStringToAddressA': Use WSAStringToAddressW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\WinSock2.h(3566): note: 'WSAStringToAddressA' 선언을 참조하십시오.
+  TCPClient6.vcxproj -> C:\Users\ieed0\source\TCPClient6\Debug\TCPClient6.exe

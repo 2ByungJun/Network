@@ -1,0 +1,10 @@
+﻿  Server.cpp
+C:\Users\ieed0\source\repos\SeverVending\Server.cpp(131): warning C4566: 유니버설 문자 이름 '\u20A9'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\ieed0\source\repos\SeverVending\Server.cpp(172): warning C4566: 유니버설 문자 이름 '\u20A9'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\ieed0\source\repos\SeverVending\Server.cpp(219): warning C4566: 유니버설 문자 이름 '\u20A9'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\ieed0\source\repos\SeverVending\Server.cpp(263): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\conio.h(453): note: 'getch' 선언을 참조하십시오.
+C:\Users\ieed0\source\repos\SeverVending\Server.cpp(259): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+C:\Users\ieed0\source\repos\SeverVending\Server.cpp(301): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.
+  SeverVending.vcxproj -> C:\Users\ieed0\source\repos\SeverVending\Debug\SeverVending.exe

@@ -1,0 +1,5 @@
+﻿  TCPServer6.cpp
+C:\Users\ieed0\source\TCPServer6\TCPServer6.cpp(98): warning C4129: '%': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+C:\Users\ieed0\source\TCPServer6\TCPServer6.cpp(80): warning C4996: 'WSAAddressToStringA': Use WSAAddressToStringW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\WinSock2.h(3507): note: 'WSAAddressToStringA' 선언을 참조하십시오.
+  TCPServer6.vcxproj -> C:\Users\ieed0\source\TCPServer6\Debug\TCPServer6.exe
