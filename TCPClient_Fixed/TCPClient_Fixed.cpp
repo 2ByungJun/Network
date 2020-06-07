@@ -37,10 +37,9 @@ int main(int argc, char* argv[])
 	char buf[BUFSIZE];
 	char* testdata[] = {
 		"안녕하세요",
-		"20154010",
-		"이병준",
-		"TCPClient_Fixed 실습",
-		"제출합니다.",
+		"반가워요",
+		"TCPClient_Fixed 실습 이병준 제출합니다.",
+		"저도 그렇네요!",
 	};
 
 	// 서버와 데이터 통신

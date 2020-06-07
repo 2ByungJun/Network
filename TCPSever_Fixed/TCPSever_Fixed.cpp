@@ -86,7 +86,7 @@ int main(int argc, char* argv[])
 	while (1) {
 		// accept()
 		addrlen = sizeof(clientaddr);
-		client_sock = accept(listen_sock, (SOCKADDR*)& clientaddr, &addrlen);
+		client_sock = accept(listen_sock, (SOCKADDR*)&clientaddr, &addrlen);
 		if (client_sock == INVALID_SOCKET) {
 			err_display("accept()");
 			break;
@@ -99,7 +99,7 @@ int main(int argc, char* argv[])
 		// 클라이언트와 데이터 통신
 		while (1) {
 			// 데이터 받기
-			retval = recv(client_sock, buf, BUFSIZE, 0);
+			retval = recvn(client_sock, buf, BUFSIZE, 0);
 			if (retval == SOCKET_ERROR) {
 				err_display("recv()");
 				break;
@@ -109,15 +109,14 @@ int main(int argc, char* argv[])
 
 			// 받은 데이터 출력
 			buf[retval] = '\0';
-			printf("[%s:%d] %s\n", inet_ntoa(clientaddr.sin_addr),
+			printf("[TCP%s:%d] %s\n", inet_ntoa(clientaddr.sin_addr),
 				ntohs(clientaddr.sin_port), buf);
-
+			}
 			// 데이터 보내기
 			retval = send(client_sock, buf, retval, 0);
 			if (retval == SOCKET_ERROR) {
 				err_display("send()");
 				break;
-			}
 		}
 
 		// closesocket()
