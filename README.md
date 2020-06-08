@@ -20,3 +20,4 @@ ___
 >       - Vending, sever, client - project
 >       - 고정길이
 >       - 가변길이
+>       - 고정+가변길이
