@@ -1,6 +1,0 @@
-﻿  TCPClient_Fixed.cpp
-C:\Users\ieed0\source\repos\TCPClient_Fixed\TCPClient_Fixed.cpp(31): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(1831): note: 'inet_addr' 선언을 참조하십시오.
-C:\Users\ieed0\source\repos\TCPClient_Fixed\TCPClient_Fixed.cpp(49): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(338): note: 'strncpy' 선언을 참조하십시오.
-  TCPClient_Fixed.vcxproj -> C:\Users\ieed0\source\repos\TCPClient_Fixed\Debug\TCPClient_Fixed.exe

@@ -1,0 +1,8 @@
+﻿  sever.cpp
+C:\Users\ieed0\source\repos\sever\sever.cpp(76): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\WinSock2.h(1849): note: 'inet_ntoa' 선언을 참조하십시오.
+C:\Users\ieed0\source\repos\sever\sever.cpp(97): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\WinSock2.h(1849): note: 'inet_ntoa' 선언을 참조하십시오.
+C:\Users\ieed0\source\repos\sever\sever.cpp(146): warning C4996: 'WSAAddressToStringA': Use WSAAddressToStringW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\WinSock2.h(3507): note: 'WSAAddressToStringA' 선언을 참조하십시오.
+  sever.vcxproj -> C:\Users\ieed0\source\repos\sever\Debug\sever.exe
