@@ -1,6 +1,6 @@
 ## Network Programming Study
 ___
-### update : 2020.06.14
+### update : 2020.06.16
 
 > Velog Link : https://velog.io/@ieed0205
 
@@ -23,3 +23,4 @@ ___
 >       - 고정+가변길이
 >       - 데이터 보내기 종료
 >       - Thread1
+>       - Thread2,3
