@@ -1,6 +1,6 @@
 ## Network Programming Study
 ___
-### update : 2020.06.16
+### update : 2020.06.24
 
 > Velog Link : https://velog.io/@ieed0205
 
@@ -10,7 +10,7 @@ ___
 
 > ## 1. start sample
 >
-> ###  - Day : 2020.05.22 ~ 2020.06.14
+> ###  - Day : 2020.05.22 ~ 2020.06.24
 > 
 >       - IPAddr
 >       - ByteOrder
@@ -24,3 +24,5 @@ ___
 >       - 데이터 보내기 종료
 >       - Thread1
 >       - Thread2,3
+>       - 멀티스레드 실습
+>       - event / critical
